@@ -1,0 +1,39 @@
+main .section-content-item{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    justify-content: flex-start;
+}
+
+/* .section-content-item.desired-position-salary {
+    grid-template-columns: 40% auto 25%;
+} */
+.main-employee-info {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 10% 50%;	
+}
+
+.private-info div {
+     width:70%;
+}
+
+.additional-info .section-content-item {
+    grid-template-columns: 20% 70%;	
+}
+
+ul.program-skills-list {
+    display: grid;
+    grid-template-columns: repeat(6, 15%);
+    grid-column-gap: 7px;
+    grid-row-gap: 5px;
+}
+
+section.position-salary-item div:last-child {
+justify-self: flex-end;
+}
+
+div.residence-relocate-info > span,
+div.job-conditions-info > span{
+display: block;
+}

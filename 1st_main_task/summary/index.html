@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./flex.css">
+    <link rel="stylesheet" href="./grid.css">
 </head>
 
 <body>
@@ -52,8 +52,8 @@
                 <h3 class="section-name">Желаемая должность и зарплата
                     <hr />
                 </h3>
-                <section class="section-content-item">
-                    <div>
+                <section class="section-content-item position-salary-item">
+                    <div class="position-info">
                         <h4>Frontend-разработчик</h4>
                         <span class="work-categories">Информационные технологии, интернет, телеком</span>
                         <ul class="work-specialization">
@@ -61,14 +61,16 @@
                             <li class="work-spec-item">Web инженер</li>
                             <li class="work-spec-item">Web мастер</li>
                         </ul>
-                        <span>Занятость: <span class="employment">стажировка, полная занятость</span></span>
-                        <span>График работы: <span class="work-schedule">полный день</span></span>
-                        <span>Желательное время в пути до работы: <span class="desired-work-travel">не имеет
-                                значения</span></span>
+                        <div class="job-conditions-info">
+                            <span>Занятость: <span class="employment">стажировка, полная занятость</span></span>
+                            <span>График работы: <span class="work-schedule">полный день</span></span>
+                            <span>Желательное время в пути до работы: <span class="desired-work-travel">не имеет
+                                    значения</span></span>
+                        </div>
                     </div>
                     <div>
                         <aside class="desired-salary">
-                            <span class="salary-value">450</span>
+                            <span class="salary-value">650</span>
                             <span class="salary-currency">USD</span>
                         </aside>
                     </div>
@@ -81,8 +83,7 @@
                 </h3>
                 <article class="section-content-item workplace-period-info">
                     <div class="working-period">
-                        <span class="start-date">Апрель 2018</span>
-                        &#8212;
+                        <span class="start-date">Апрель 2018 &#8212;</span>
                         <span class="end-date">Август 2018</span>
                         <span class="exp-duration">5 месяцев</span>
                     </div>
@@ -97,8 +98,7 @@
                 </article>
                 <article class="section-content-item workplace-period-info">
                     <div class="working-period">
-                        <span class="start-date">Февраль 2018</span>
-                        &#8212;
+                        <span class="start-date">Февраль 2018 &#8212;</span>
                         <span class="end-date">Июль 2018</span>
                         <span class="exp-duration">6 месяцев</span>
                     </div>
@@ -117,7 +117,7 @@
                     Образование
                     <hr />
                 </h3>
-                <h5 class="education-degree">Бакалавр</h5>
+                <h5 class="education-degree">Специалист</h5>
                 <section class="section-content-item">
                     <div>
                         <span class="graduation-year">2019</span>
@@ -178,7 +178,7 @@
                 </h3>
                 <section class="section-content-item">
                     <div>
-                        <span>Обо мне</span>
+                        <span>Дополнительно</span>
                     </div>
                     <div>
                         <p class="about-me-info">

@@ -1,21 +1,52 @@
-body {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 80%;
-}
 
 .section-content-item {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1.5%; 
+}
+
+.section-content-item.position-salary-item{
     justify-content: space-between;
 }
 
-.section-content {
-    margin-bottom: 20px;
+.section-content-item div:nth-child(2):not(.private-info):not(.employee-descriptions) {
+    margin-left: 5px;
 }
+
+.main-employee-info {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.private-info, 
+.contact-info, 
+.residence-relocate-info,
+.job-conditions-info, 
+.organization-info,
+.working-period
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-me-info{
+    margin-left:7%; 
+}
+
+ aside.desired-salary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+
+ .desired-position-salary .section-content-item{
+     align-items: flex-start; 
+ }
+
+
+
