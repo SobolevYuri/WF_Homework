@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+html, body {
+    width: 100%;
+}
+
+  p.about-me-info {
+      width: 90%
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+
+  ul.program-skills-list {
+      list-style: none;
+      display: flex;
+      align-content: space-around;
+      margin: auto;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+   ul.program-skills-list li {
+      background-color: lightgray; 
+      padding: 3px;
+      margin: 0 0 2% 3.5%; 
+   }
+
+   .section-content-item div:nth-child(1):not(.profile-photo):not(.position-info) {
+    width:20%;
+}
+
+   footer {
+       margin-top: 5%; 
+       margin-bottom: 1%; 
+       color: lightgrey;
+   }
+
+   h3 {
+       color: grey;
+   }
+
+   h2 {
+       font-size: 35px;
+   }
+
+   h1 {
+       font-style: italic;
+       font-size: 30px;
+   }
+
+    .desired-salary .salary-value {
+     font-weight: bold;
+     font-size: 30px;
+ }
+
+  .residence-relocate-info address {
+     display: inline;
+ }
+
+h4 {
+    font-size: 25px;
+    margin-bottom: 20px; 
+}
+
+   .private-info>*:not(:last-child) {
+     margin-bottom: 20px;
+ }
+
+ .organization-info>*:not(:last-child) {
+     margin-bottom:5px;
+ }
+
+ .workplace-description {
+     color:lightgrey;
+     font-size: 12px;
+ }
+
+ul.work-specialization {
+margin: 1% 0 3% 10%; 
+}
+
+.section-content {
+    margin-bottom: 20px;
+}
+
+.section-content-item {
+    margin-top: 1.5%; 
+}
+
+
+.section-content-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1.5%; 
+}
+
+.section-content-item.position-salary-item{
+    justify-content: space-between;
+}
+
+.section-content-item div:nth-child(2):not(.private-info):not(.employee-descriptions) {
+    margin-left: 5px;
+}
+
+.main-employee-info {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.private-info, 
+.contact-info, 
+.residence-relocate-info,
+.job-conditions-info, 
+.organization-info,
+.working-period
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-me-info{
+    margin-left:7%; 
+}
+
+ aside.desired-salary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+
+ .desired-position-salary .section-content-item{
+     align-items: flex-start; 
+ }
+
+ aside.backto-home-screen{
+    position: fixed;
+    top: 1%;
+    left: 3%;
+}
+
+
+
+
+
+
+
