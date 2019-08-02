@@ -3,22 +3,18 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CV-ISSoft</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./flex.css">
+    <link rel="stylesheet" href="./grid.css">
 </head>
 
 <body>
     <header>
-        <div class="wrapper">
+        <div class="content-wrapper">
             <section class="section-content">
                 <h1 class="docs-title">Резюме</h1>
-                <hr />
-                <section class="section-content-item main-employee-info">
-                    <div class="profile-photo"><img src="./images/summary_photo.png" alt="profile_photo"></div>
+                <div class="section-content-item main-employee-info">
+                    <div class="profile-photo"><img src="./images/summary_photo.png" alt="Profile photo"></div>
                     <div class="private-info">
                         <h2 class="employee-name">
                             Соболев Юрий Игоревич
@@ -26,7 +22,7 @@
                         <div class="employee-descriptions">
                             <span><span class="sex">Мужчина</span>, </span>
                             <span><span class="age">21</span> год, </span>
-                            <span>родился <time class="birth-date">9 июля 1998</time></span>
+                            <span>родился <span class="birth-date">9 июля 1998</span></span>
                         </div>
                         <div class="contact-info">
                             <span class="phone-number">+375 (44) 7279605</span>
@@ -42,17 +38,16 @@
                                     class="readyfor-business-trip">готов к командировкам</span></span>
                         </div>
                     </div>
-                </section>
+                </div>
             </section>
         </div>
     </header>
     <main>
-        <div class="wrapper">
+        <div class="content-wrapper">
             <section class="section-content desired-position-salary">
                 <h3 class="section-name">Желаемая должность и зарплата
-                    <hr />
                 </h3>
-                <section class="section-content-item position-salary-item">
+                <div class="section-content-item position-salary-item">
                     <div class="position-info">
                         <h4>Frontend-разработчик</h4>
                         <span class="work-categories">Информационные технологии, интернет, телеком</span>
@@ -74,12 +69,11 @@
                             <span class="salary-currency">USD</span>
                         </aside>
                     </div>
-                </section>
+                </div>
             </section>
             <section class="section-content work-experience">
                 <h3 class="section-name">
                     Опыт работы — <span class="exp-title-value">7 месяцев</span>
-                    <hr />
                 </h3>
                 <article class="section-content-item workplace-period-info">
                     <div class="working-period">
@@ -115,10 +109,9 @@
             <section class="section-content education">
                 <h3 class="section-name">
                     Образование
-                    <hr />
                 </h3>
                 <h5 class="education-degree">Специалист</h5>
-                <section class="section-content-item">
+                <div class="section-content-item">
                     <div>
                         <span class="graduation-year">2019</span>
                     </div>
@@ -132,27 +125,26 @@
                                 управления</span>
                         </p>
                     </div>
-                </section>
+                </div>
             </section>
             <section class="section-content main-skills">
                 <h3 class="section-name">
                     Ключевые навыки
-                    <hr />
                 </h3>
-                <section class="section-content-item languages">
+                <div class="section-content-item languages">
                     <div>
                         <span class="knowing-skill-title">Знание языков</span>
                     </div>
                     <div>
                         <ul class="languages-list">
-                            <li class="languages-item"><span class="language-name">Русский</span> &#8212; <span
+                            <li class="languages-item"><span class="language-name">Русский</span> - <span
                                     class="skill-level">Родной</span></li>
-                            <li class="languages-item"><span class="language-name">Английский</span> &#8212; <span
+                            <li class="languages-item"><span class="language-name">Английский</span> - <span
                                     class="skill-level">B2 — Средне-продвинутый</span></li>
                         </ul>
                     </div>
-                </section>
-                <section class="section-content-item professional-skills">
+                </div>
+                <div class="section-content-item professional-skills">
                     <div>
                         <span class="knowing-skill-title">Навыки</span>
                     </div>
@@ -169,14 +161,13 @@
                             <li class="program-skill-item">SQL</li>
                         </ul>
                     </div>
-                </section>
+                </div>
             </section>
             <section class="section-content additional-info">
                 <h3 class="section-name">
                     Дополнительная информация
-                    <hr />
                 </h3>
-                <section class="section-content-item">
+                <div class="section-content-item">
                     <div>
                         <span>Дополнительно</span>
                     </div>
@@ -199,15 +190,15 @@
                             многообразии.
                         </p>
                     </div>
-                </section>
+                </div>
             </section>
         </div>
     </main>
     <footer>
-        <div class="wrapper">
+        <div class="content-wrapper">
             <span class="employee-name">Соболев Юрий</span>
             &diams;
-            <span>Резюме обновлено: <time class="resume-update-date">15 октября 2018 в 01:11</time></span>
+            <span>Резюме обновлено: <span class="resume-update-date">15 октября 2018 в 01:11</span></span>
         </div>
     </footer>
 </body>

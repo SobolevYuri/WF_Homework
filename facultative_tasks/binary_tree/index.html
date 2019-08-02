@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <title>Homework</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <form>
+            <h1>
+                Binary tree feature
+            </h1>
+            <section class="app-section insert-update-section">
+                <label>
+                    Insert/update a node:
+                    <input type="text" id="insert-update-key-field" class="app-inputfield insert-update-inputfield" placeholder="Key node">
+                    <input type="text" id="insert-update-value-field" class="app-inputfield insert-update-inputfield" placeholder="Value node">
+                </label>
+                <button id="process-data-btn" class="app-button">Insert the new node</button>
+                <button id="process-data-btn" class="app-button">Update the node</button>
+            </section>
+            <section class="app-section delete-search-section">
+                <label>
+                    Search/delete a node via key:
+                    <input type="text" id="delete-search-key-field" class="app-inputfield delete-search-inputfield" placeholder="Key node">
+                </label>
+                <button id="process-data-btn" class="app-button">Search the node</button>
+                <button id="process-data-btn" class="app-button">Delete the node</button>
+            </section>
+            <section class="app-section display-tree-section">
+                <h2>Display the tree</h2>
+                <button id="process-data-btn" class="app-button">Display like a list</button>
+                <button id="process-data-btn" class="app-button">Display the tree</button>
+            </section>
+                <textarea type="text" readonly id="data-output" class="app-textarea" placeholder="Output field"></textarea>
+        </form>
+        <script src="./main.js" async defer></script>
+    </body>
+</html>

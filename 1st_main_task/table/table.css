@@ -8,7 +8,6 @@ html, body {
 }
 
 table {
-    border-collapse: collapse;
     border: 5px solid darkblue;
     min-height: 100px;
     min-width: 500px;

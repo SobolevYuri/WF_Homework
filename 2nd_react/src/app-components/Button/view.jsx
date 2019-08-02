@@ -6,7 +6,7 @@ import styles from "./style.js";
  class Button extends React.Component {
   
       render() {
-          return <button className={this.props.classes.appButton}>Tap this shit!</button>
+          return <button className={this.props.classes.appButton}>Tap this!</button>
       }
   }
 

@@ -1,12 +1,9 @@
 main .section-content-item{
     display:grid;
     grid-template-columns: 30% 70%;
-    justify-content: flex-start;
+    justify-content: start;
 }
 
-/* .section-content-item.desired-position-salary {
-    grid-template-columns: 40% auto 25%;
-} */
 .main-employee-info {
     display: grid;
     justify-items: center;
@@ -29,8 +26,8 @@ ul.program-skills-list {
     grid-row-gap: 5px;
 }
 
-section.position-salary-item div:last-child {
-justify-self: flex-end;
+div.position-salary-item div:last-child {
+justify-self: end;
 }
 
 div.residence-relocate-info > span,
