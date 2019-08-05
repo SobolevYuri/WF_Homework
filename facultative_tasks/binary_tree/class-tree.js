@@ -44,6 +44,18 @@ function BinarySearchTree() {
         }
     };
 
+    this.update=function(key, value, tree = this._root){
+        if (!tree) {return}
+
+        if (tree.key === key) {return tree.value = value;}
+
+        if (key < tree.key) {
+            return this.update(key, tree.left);
+        } else {
+            return this.update(key, tree.right);
+        }
+    };
+
     this.delete=function(key){
 
         function getMin(node) {
